@@ -1,4 +1,4 @@
 FROM        scratch
 MAINTAINER  kjell.almgren@tetracon.se
 ADD universe universe
-CMD ["./universe"]
+ENTRYPOINT ["./universe"]
